@@ -4,6 +4,7 @@ public class Random {
     public static int random1To10() {
         int rand = 0;
         // TODO: Code here
+        rand = (int)(Math.random() * 10) + 1;
         return rand;
     }
 
@@ -12,6 +13,7 @@ public class Random {
     {
         int rand = 0;
         // TODO: Code here
+        rand = (int)(Math.random() * n) + 1;
         return rand;
     }
 
@@ -20,6 +22,7 @@ public class Random {
     {
         int rand = 0;
         // TODO: Code here
+        rand = (int)(Math.random() * (y - x)) + x;
         return rand;
     }
 
